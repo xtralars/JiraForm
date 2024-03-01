@@ -1,2 +1,1 @@
-# JiraForm
-Form for reporting bug via jira
+https://xtralars.github.io/JiraForm

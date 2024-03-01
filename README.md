@@ -1,1 +1,1 @@
-https://xtralars.github.io/JiraForm
+xtralars.github.io/JiraForm

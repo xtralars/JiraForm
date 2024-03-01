@@ -1,0 +1,155 @@
+:root {
+    --blue: #005a94;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #c43e3e;
+    --orange: #e98300;
+    --yellow: #ffc107;
+    --green: #687550;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #2067a2;
+    --secondary: #6d6e6d;
+    --success: #ccf4ea;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #aa2312;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: auto;
+    background-image: linear-gradient(#17a2b8 ,#20c997 );
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.labelText{
+    font-weight: bold;
+    display: flex;
+}
+#ifSecurityOpt{
+    color: var(--danger);
+    font-size: 16px;
+    font-weight: bold;
+}
+#flexboxcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#flex-flow-left{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    
+    max-width: 1000px;
+    min-width: 500px;
+
+
+}
+.inputForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    max-width: 200px;
+    min-width: 500px;
+    justify-content: center;
+}
+.outputForm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 500px;
+    
+    justify-content: center;
+
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+#flex-flow-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    min-width: 500px;
+    max-width: 500px;
+    
+
+}
+
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+
+
+p{
+    
+    font-weight: bold;
+}
+
+#outputText{
+    max-width: 200px;
+}
+.button{
+    height: 40px;
+    width: 300px;
+    background-color: var(--primary);
+    color: var(--light);
+    font-family: inherit;
+    border: var(--blue);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+.button:hover{
+    background-color: var(--blue);
+}
+.button:active{
+    background-color:  var(--gray);
+    
+}
+.inputInput{
+    height: 20px;
+
+}
+.textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 100px;
+}
+
+
+.hidden{
+    display: none;
+}
+#copyButtonDiv{
+    display: none;
+}

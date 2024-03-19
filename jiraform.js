@@ -22,19 +22,22 @@ function printFormData() {
     var workaround = document.getElementById('workaround').value;
     var errorMsg = document.getElementById('errorMsg').value;
 
-    document.getElementById('orgIdDiv').innerHTML = orgID;
+    
 
-    var output = orgIdOut + orgID + "<br>" +
-             userIdOut + userID + "<br>" +
-             severityOut + severity + "<br>" +
-             affUsersOut+ affectedUsers + "<br>" +
-             affFunctionsOut + affectedFunctions + "<br>" +
-             descOut + description + "<br>" +
-             toReproduceOut + toReproduce + "<br>" +
-             workaroundOut + workaround + "<br>" +
-             azureOut + errorMsg
+    var output = "<strong>Orgid:</strong> " + orgID + "<br>" +
+                 "<strong>UserID:</strong> " + userID + "<br>" +
+                 "<strong>Severity:</strong> " + severity + "<br>" +
+                 "<strong>Affected Users:</strong> " + affectedUsers + "<br>" +
+                 "<strong>Affected Function(s):</strong> " + affectedFunctions + "<br>" +
+                 "<strong>Description:</strong> " + description + "<br>" +
+                 "<strong>To Reproduce:</strong> " + toReproduce + "<br>" +
+                 "<strong>Workaround:</strong> " + workaround + "<br>" +
+                 "<strong>Azure Error:</strong> " + errorMsg;
 
     document.getElementById('outputText').innerHTML = output;
+
+    
+    orgIdOut.innerHTML = orgID;
 
     var copyButtonDiv = document.getElementById("copyButtonDiv");
     copyButtonDiv.style.display = "block";
@@ -42,12 +45,16 @@ function printFormData() {
 
 
 function copyToClipboard() {
-    var outputText = document.getElementById("outputText").innerText;
-    navigator.clipboard.writeText(outputText)
-        
-        .catch(err => {
-            console.error('Could not copy text: ', err);
-        });
+    var outputText = document.getElementById('outputText').innerHTML;
+
+    navigator.clipboard.write([
+        new ClipboardItem({
+            "text/html": new Blob([outputText], { type: "text/html" })
+        })
+    ])
+    .catch(err => {
+        console.error('Unable to copy formatted text: ', err);
+    });
 }
 
 
@@ -61,4 +68,64 @@ function ifSecurity(){
         hiddenTextElement.style.display = "none";
     }
 }
+const componentList = document.getElementById('component');
+const componentTeam = document.getElementById('componentTeam');
+fetch('./components.json')
+    .then(res => res.json())
+    .then(data => {
+        data.forEach(item =>{
+            const option = document.createElement('option');
+            option.value = item.function;
+            option.textContent = item.function;
+            componentList.appendChild(option);
+        });
 
+        componentList.addEventListener('change', () => {
+            const selectedItem = data.find(item => item.function === componentList.value);
+            componentTeam.textContent = `Team: ${selectedItem.team}`;
+        });
+        
+    });
+
+
+//copy of formatted text
+
+//original
+/*function copyToClipboard() {
+    var outputText = document.getElementById("outputText").innerHTML;
+    navigator.clipboard.writeText(outputText)
+    
+        
+        .catch(err => {
+            console.error('Could not copy text: ', err);
+        });
+}*/
+//new one
+function copyFormattedText() {
+    var formattedText = document.getElementById('formattedText').innerHTML;
+
+    navigator.clipboard.write([
+        new ClipboardItem({
+            "text/html": new Blob([formattedText], { type: "text/html" })
+        })
+    ]).then(() => {
+        alert('Formatted text copied to clipboard!');
+    }).catch(err => {
+        console.error('Unable to copy formatted text: ', err);
+    });
+}
+
+//combined
+/*function copyToClipboard() {
+    var outputText = document.getElementById('outputText').innerHTML;
+
+    navigator.clipboard.write([
+        new ClipboardItem({
+            "text/html": new Blob([outputText], { type: "text/html" })
+        })
+    ]).then(() => {
+        alert('Formatted text copied to clipboard!');
+    }).catch(err => {
+        console.error('Unable to copy formatted text: ', err);
+    });
+}*/

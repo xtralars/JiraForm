@@ -35,6 +35,8 @@
         </select>
         <br>
         <label class="labelText">Affected function(s): </label><input id="affectedFunctions">
+        <label class="labelText">Component </label><select id="component"></select>
+        <div class="componentText" id="componentTeam"></div>
         <label class="labelText">Description: </label><textarea class="textarea" id="description"></textarea>
         <label class="labelText">To reproduce: </label><textarea class="textarea" id="toReproduce"></textarea>
         <label class="labelText">Workaround: </label><textarea class="textarea" id="workaround"></textarea>
@@ -51,17 +53,17 @@
     <div id="flex-flow-right">
         
 
-        <div class="outputForm" id="outputForm">
-            <div class="hidden">
-        <p id="orgIdOut">OrgID: <div id="orgIdDiv"></div></p>
-        <p id="userIdOut">UserID: </p>
-        <p id="severityOut">Severity: </p>
-        <p id="affUsersOut">Affected users: </p>
-        <p id="affFunctionsOut">Affected function(s): </p>
-        <p id="descOut">Description: </p>
-        <p id="toReproduceOut">To reproduce: </p>
-        <p id="workaroundOut">Workaround: </p>
-        <p id="azureOut">Azure error: </p>
+        <div class="outputForm" id="outputForm" >
+            <div id="templateOutput" style="display: none;">
+                <p id="orgIdOut">OrgID: <div id="orgIdDiv"></div></p>
+                <p id="userIdOut">UserID: </p>
+                <p id="severityOut">Severity: </p>
+                <p id="affUsersOut">Affected users: </p>
+                <p id="affFunctionsOut">Affected function(s): </p>
+                <p id="descOut">Description: </p>
+                <p id="toReproduceOut">To reproduce: </p>
+                <p id="workaroundOut">Workaround: </p>
+                <p id="azureOut">Azure error: </p>
             </div>
     
             <div id="outputText"></div>
@@ -70,8 +72,11 @@
                 <button class="button" id="copyToClip" onclick="copyToClipboard()">Copy to clipboard</button>
             </div>
             
-    </div>
+
+
+        </div>
 </div>
+
 
 <script src="jiraform.js"></script>
 </body>

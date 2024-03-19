@@ -1,0 +1,155 @@
+[
+    {
+        "function": "login",
+        "team": "platform"
+    },
+    {
+        "function": "Home / Landing page",
+        "team": "hurricane"
+    },
+    {
+        "function": "Registration page",
+        "team": "hurricane"
+    },
+    {
+        "function": "Folder Structure",
+        "team": "hurricane"
+    },
+    {
+        "function": "Documents",
+        "team": "hurricane"
+    },
+    {
+        "function": "Meetings",
+        "team": "tornado"
+    },
+    {
+        "function": "Electronic Signing",
+        "team": "tornado"
+    },
+    {
+        "function": "Decisions",
+        "team": "hurricane"
+    },
+    {
+        "function": "Q&A",
+        "team": "hurricane"
+    },
+    {
+        "function": "Task management",
+        "team": "hurricane"
+    },
+    {
+        "function": "Secure Messaging",
+        "team": "tornado"
+    },
+    {
+        "function": "Reports",
+        "team": "hurricane"
+    },
+    {
+        "function": "Settings",
+        "team": "platform"
+    },
+    {
+        "function": "Export",
+        "team": "hurricane"
+    },
+    {
+        "function": "Search",
+        "team": "hurricane"
+    },
+    {
+        "function": "Push notifications",
+        "team": "platform cloud"
+    },
+    {
+        "function": "Delete portal / Delete User",
+        "team": "platform cloud"
+    },
+    {
+        "function": "Provisioning",
+        "team": "platform"
+    },
+    {
+        "function": "Luminance",
+        "team": "hurricane"
+    },
+    {
+        "function": "Identity Server",
+        "team": "platform"
+    },
+    {
+        "function": "Translations",
+        "team": "hurricane"
+    },
+    {
+        "function": "BackOffice",
+        "team": "platform"
+    },
+    {
+        "function": "TabletAPI & MobileAPI",
+        "team": "API Team"
+    },
+    {
+        "function": "DPS",
+        "team": "platform"
+    },
+    {
+        "function": "SMS",
+        "team": "platform"
+    },
+    {
+        "function": "DealHub",
+        "team": "platform"
+    },
+    {
+        "function": "Analytics",
+        "team": "platform"
+    },
+    {
+        "function": "Message Queuing",
+        "team": "platform cloud"
+    },
+    {
+        "function": "Redis",
+        "team": "platform cloud"
+    },
+    {
+        "function": "Feature Toggles",
+        "team": "platform cloud"
+    },
+    {
+        "function": "Annual Board Calendar",
+        "team": "tornado"
+    },
+    {
+        "function": "Microservices support",
+        "team": "platform"
+    },
+    {
+        "function": "Board Evaluation",
+        "team": "tornado"
+    },
+    {
+        "function": "Notifications",
+        "team": "tornado"
+    }
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

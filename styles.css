@@ -40,6 +40,12 @@ body{
     font-weight: bold;
     display: flex;
 }
+.componentText{
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    color:var(--dark);
+}
 #ifSecurityOpt{
     color: var(--danger);
     font-size: 16px;
@@ -58,6 +64,8 @@ body{
     
     max-width: 1000px;
     min-width: 500px;
+    
+    
 
 
 }
@@ -68,6 +76,7 @@ body{
     
     max-width: 200px;
     min-width: 500px;
+    
     justify-content: center;
 }
 .outputForm{
@@ -84,6 +93,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
     
     
 }

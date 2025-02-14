@@ -5,19 +5,19 @@
     },
     {
         "function": "Home / Landing page",
-        "team": "hurricane"
+        "team": "cyclone"
     },
     {
         "function": "Registration page",
-        "team": "hurricane"
+        "team": "cyclone"
     },
     {
         "function": "Folder Structure",
-        "team": "hurricane"
+        "team": "cyclone"
     },
     {
         "function": "Documents",
-        "team": "hurricane"
+        "team": "cyclone"
     },
     {
         "function": "Meetings",
@@ -29,15 +29,15 @@
     },
     {
         "function": "Decisions",
-        "team": "hurricane"
+        "team": "cyclone"
     },
     {
         "function": "Q&A",
-        "team": "hurricane"
+        "team": "cyclone"
     },
     {
         "function": "Task management",
-        "team": "hurricane"
+        "team": "cyclone"
     },
     {
         "function": "Secure Messaging",
@@ -45,7 +45,7 @@
     },
     {
         "function": "Reports",
-        "team": "hurricane"
+        "team": "cyclone"
     },
     {
         "function": "Settings",
@@ -53,11 +53,11 @@
     },
     {
         "function": "Export",
-        "team": "hurricane"
+        "team": "cyclone"
     },
     {
         "function": "Search",
-        "team": "hurricane"
+        "team": "cyclone"
     },
     {
         "function": "Push notifications",
@@ -73,7 +73,7 @@
     },
     {
         "function": "Luminance",
-        "team": "hurricane"
+        "team": "cyclone"
     },
     {
         "function": "Identity Server",
@@ -81,7 +81,7 @@
     },
     {
         "function": "Translations",
-        "team": "hurricane"
+        "team": "cyclone"
     },
     {
         "function": "BackOffice",
@@ -133,6 +133,10 @@
     },
     {
         "function": "Notifications",
+        "team": "tornado"
+    },
+    {
+        "function": "AI assistant",
         "team": "tornado"
     }
 

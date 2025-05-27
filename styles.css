@@ -28,7 +28,6 @@ body{
     /*height: 100vh;*/
     width: auto;
     background-image: linear-gradient(-120deg, #B6DEFE 0%, #BDF3DE 97%);
-    
 }
 .header{
     display: flex;
@@ -40,11 +39,14 @@ body{
     font-weight: bold;
     display: flex;
 }
+#component{
+    max-width: 250px;
+}
 .componentText{
     font-weight: bold;
     font-size: 16px;
-    font-style: italic;
-    color:var(--dark);
+    
+    color:var(--gray-dark);
 }
 #ifSecurityOpt{
     color: var(--danger);
@@ -93,6 +95,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
     
     
     

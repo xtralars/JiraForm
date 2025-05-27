@@ -82,7 +82,7 @@ fetch('./components2.json')
 
         componentList.addEventListener('change', () => {
             const selectedItem = data.find(item => item.function === componentList.value);
-            componentTeam.textContent = `Team: ${selectedItem.Team}`;
+            componentTeam.textContent = `Team: ${selectedItem.team}`;
         });
         
     });

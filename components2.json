@@ -1,0 +1,614 @@
+[
+    {
+      "function": "Cleanup Service ",
+      "team": "Platform"
+    },
+    {
+      "function": "Log Aggregate ",
+      "team": "Platform Cloud "
+    },
+    {
+      "function": "Monolith API Internal Services API ",
+      "team": "Tornado"
+    },
+    {
+      "function": "Observability ",
+      "team": "Platform Cloud "
+    },
+    {
+      "function": "Subscription Service ",
+      "team": "Platform Cloud "
+    },
+    {
+      "function": "Analytics  - Snowplow ",
+      "team": "Platform"
+    },
+    {
+      "function": "Annual Board Calendar  - ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "BackOffice  - Admin ",
+      "team": "Platform"
+    },
+    {
+      "function": "BackOffice  - Licenses ",
+      "team": "Platform"
+    },
+    {
+      "function": "BackOffice  - Portals ",
+      "team": "Platform"
+    },
+    {
+      "function": "BackOffice  - Search ",
+      "team": "Platform"
+    },
+    {
+      "function": "BackOffice  - System Roles ",
+      "team": "Platform"
+    },
+    {
+      "function": "BackOffice  - Templates ",
+      "team": "Platform"
+    },
+    {
+      "function": "BackOffice  - User Roles ",
+      "team": "Platform"
+    },
+    {
+      "function": "Board Evaluation  - Survey ",
+      "team": "Vortex "
+    },
+    {
+      "function": "Business Intelligence - Google Big Query sync",
+      "team": "Platform"
+    },
+    {
+      "function": "Cloud Login  - PortalPicker ",
+      "team": "Platform"
+    },
+    {
+      "function": "Cloud Login  - Sql Data Sync ",
+      "team": "Platform"
+    },
+    {
+      "function": "Cloud Login  - UserApi ",
+      "team": "Platform"
+    },
+    {
+      "function": "DealHub",
+      "team": "Platform"
+    },
+    {
+      "function": "Decisions ",
+      "team": "Tornado"
+    },
+    {
+      "function": "Delete portal / Delete User  - ConvertWorker ",
+      "team": "Platform Cloud "
+    },
+    {
+      "function": "Delete portal / Delete User  - GDPR Service ",
+      "team": "Platform Cloud "
+    },
+    {
+      "function": "Documents  - Annotations Upload processing service ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - Bookmarks FileAPI ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - Comments ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - Document ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - Download / Multiple downloads ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - Merge ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - Page numbering ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - Print ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - Recent Items ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - Redaction ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - securrites ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - Test data generator (BackOffice) ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - Upload ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - View / Document Viewer ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Documents  - Watermarks ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "DPS",
+      "team": "Platform"
+    },
+    {
+      "function": "Electronic Signing  - Batch signing ",
+      "team": "Vortex "
+    },
+    {
+      "function": "Electronic Signing  - Create/update Signature requests CallbackApi ",
+      "team": "Vortex "
+    },
+    {
+      "function": "Electronic Signing  - Notify (SR) SigningService ",
+      "team": "Vortex "
+    },
+    {
+      "function": "Electronic Signing  - Quick sign page ",
+      "team": "Vortex "
+    },
+    {
+      "function": "Electronic Signing  - Reminders (SR) ",
+      "team": "Vortex "
+    },
+    {
+      "function": "Electronic Signing  - Signature levels ",
+      "team": "Vortex "
+    },
+    {
+      "function": "Electronic Signing  - SR widget ",
+      "team": "Vortex "
+    },
+    {
+      "function": "Email providers  - Email providers (Mailjet, Office365 …) ",
+      "team": "Platform"
+    },
+    {
+      "function": "Export  - Download site ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Feature Toggles  - Launch Darkly ",
+      "team": "Platform Cloud "
+    },
+    {
+      "function": "Folder Structure  - Contracts ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Copy Folder ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Create folder ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Default folder ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Delete Folder ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Email templates ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Folder access ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Folder actions ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Folder Structure ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Folder subscriptions ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Move Folder ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Reset sort order ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Sorting ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Test data generator ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Folder Structure  - Tree view (VDR) ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Home / Landing page  - About ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Home / Landing page  - Banner / Icon / Portal Logo ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Home / Landing page  - Contact Support ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Home / Landing page  - Dashboard ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Home / Landing page  - Disclaimer ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Home / Landing page  - Help ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Home / Landing page  - Landing page ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Home / Landing page  - Navigation bar ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Home / Landing page  - pNPS ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Home / Landing page  - Portal switcher ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Identity Server",
+      "team": "Platform"
+    },
+    {
+      "function": "Login  - 2FA Bypass ",
+      "team": "Platform"
+    },
+    {
+      "function": "Login  - Authenticator APP Identity Server ",
+      "team": "Platform"
+    },
+    {
+      "function": "Login  - Bypassrep ",
+      "team": "Platform"
+    },
+    {
+      "function": "Login  - E-ID ",
+      "team": "Platform"
+    },
+    {
+      "function": "Login  - Reset password ",
+      "team": "Platform"
+    },
+    {
+      "function": "Login  - Username /v Password ",
+      "team": "Platform"
+    },
+    {
+      "function": "Luminance  - SyncApi ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Active sessions",
+      "team": "Platform"
+    },
+    {
+      "function": "Main settings page - Add user",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - App settings",
+      "team": "API"
+    },
+    {
+      "function": "Main settings page - Bulk update items",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Cookie settings and privacy policy",
+      "team": "Platform"
+    },
+    {
+      "function": "Main settings page - Download settings",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Emails and notificationsFolder subscriptions",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Emails and notificationsSecure message subscriptions",
+      "team": "Tornado"
+    },
+    {
+      "function": "Main settings page - Emails and notificationsSystem subscriptions",
+      "team": "Platform"
+    },
+    {
+      "function": "Main settings page - Emails and notificationsTask subscriptions",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Export",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Global system settingsPortal banner",
+      "team": "API"
+    },
+    {
+      "function": "Main settings page - Global system settingsPortal icon",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Global system settingsPortal logo",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Global system settingsProfile picture",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Login and Electronic ID",
+      "team": "Platform"
+    },
+    {
+      "function": "Main settings page - Manage portal subscriptions",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Manage Q&A categories",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Manage users and permissions",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Organization functions",
+      "team": "Tornado"
+    },
+    {
+      "function": "Main settings page - Q&A Settings",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Roles/Folder permissions",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - System",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - Task management",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - User profile",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Main settings page - User roles",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Meetings  - Access history ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Add meeting ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Agenda ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Attachments ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Comments ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Create new meeting ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Custom numbering ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Edit, Lock and Delete meeting ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Meeting book ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Meeting List ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Meeting minutes extract ",
+      "team": "Blizzard "
+    },
+    {
+      "function": "Meetings  - Meeting minutes ",
+      "team": "Blizzard "
+    },
+    {
+      "function": "Meetings  - Meeting widget ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Notify (meeting) ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Publish / Republish ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Share and discuss meeting minutes ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Test data generator (BackOffice) ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Meetings  - Text Editor ",
+      "team": "Hailstorm"
+    },
+    {
+      "function": "Message Queuing  - Azure Service Bus Admincontrol.Messaging (Nuget package) ",
+      "team": "Platform Cloud "
+    },
+    {
+      "function": "Message Queuing  - RabbitMQ ",
+      "team": "Platform Cloud "
+    },
+    {
+      "function": "MobileAPI  - Data sync ",
+      "team": "API"
+    },
+    {
+      "function": "MobileAPI  - Wipe ",
+      "team": "API"
+    },
+    {
+      "function": "Notifications  - Sending and/or queuing notifications (email/SMS/push) Admincontrol.Notification (NuGet Package) ",
+      "team": "Vortex "
+    },
+    {
+      "function": "Provisioning  - ProvisioningSplitApi ",
+      "team": "Platform"
+    },
+    {
+      "function": "Provisioning  - Salesforce ProvisioningService ",
+      "team": "Platform"
+    },
+    {
+      "function": "Provisioning  - Zuora ProvisioningApi ",
+      "team": "Platform"
+    },
+    {
+      "function": "Push notifications  - Push Service - Badges ",
+      "team": "API"
+    },
+    {
+      "function": "Q&A - Bulk Update ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Q&A - Q&A categories ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Q&A - Q&A ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Q&A - Test data generator ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Redis",
+      "team": "Platform Cloud "
+    },
+    {
+      "function": "Registration page  - Onboarding ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Reports",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Search - Indexing SolrIndexCrawler ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Search - OCR ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Search - Solr ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Secure Messaging  - Secure Messaging ",
+      "team": "Blizzard "
+    },
+    {
+      "function": "SMS providers",
+      "team": "Platform"
+    },
+    {
+      "function": "Suitability Assessment",
+      "team": "?"
+    },
+    {
+      "function": "Task management",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Task management  - SignalR ",
+      "team": "Platform Cloud "
+    },
+    {
+      "function": "TBD - CI/CD Architecture & Infrastructure ",
+      "team": "Platform Cloud "
+    },
+    {
+      "function": "Translations  - Crowdin ",
+      "team": "Hurricane"
+    },
+    {
+      "function": "Translations  - Translation Tool ",
+      "team": "Hurricane"
+    }
+   ]

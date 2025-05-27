@@ -70,7 +70,7 @@ function ifSecurity(){
 }
 const componentList = document.getElementById('component');
 const componentTeam = document.getElementById('componentTeam');
-fetch('./components.json')
+fetch('./components2.json')
     .then(res => res.json())
     .then(data => {
         data.forEach(item =>{
@@ -82,7 +82,7 @@ fetch('./components.json')
 
         componentList.addEventListener('change', () => {
             const selectedItem = data.find(item => item.function === componentList.value);
-            componentTeam.textContent = `Team: ${selectedItem.team}`;
+            componentTeam.textContent = `Team: ${selectedItem.Team}`;
         });
         
     });

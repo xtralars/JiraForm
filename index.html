@@ -3,82 +3,100 @@
 <head>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header class="header"><h1>JiraForm</h1></header>
-<div id="flexboxcontainer">
-    <div class="flex-flow-left">
-    <div class="inputForm">
-    <form class="form">
-        <label class="labelText">Orgid: </label><input class="inputInput" type="number" id="orgID">
-        <label class="labelText">UserID: </label><input class="inputInput" type="number" id="userID">
-        <label class="labelText">Severity </label>
-        
-            <select name="severity" id="severity" onchange="ifSecurity()">
-                <option value="severityOpt0">Choose severity</option>
-                <option value="severityOpt1">Degraded functionality</option>
-                <option value="severityOpt2">Blocked functionality</option>
-                <option value="severityOpt3">Data loss</option>
-                <option value="severityOpt4">Security issue</option>
-            </select>
-            <div id="ifSecurityOpt" style="display: none;">Remember to set Jira to Critical!</div>
-            <br>
-
-        <label class="labelText">How many users are affected:</label>
-        <select name="affectedUsers" id="affectedUsers" required>
-                <option value="affectedOpt0">Choose option:</option>
-                <option value="affectedOpt1">None</option>
-                <option value="affectedOpt2">Few</option>
-                <option value="affectedOpt3">Some</option>
-                <option value="affectedOpt4">Many</option>
-                <option value="affectedOpt5">All</option>              
-        </select>
-        <br>
-        <label class="labelText">Affected function(s): </label><input id="affectedFunctions">
-        <label class="labelText">Component </label><select id="component"></select>
-        <div class="componentText" id="componentTeam"></div>
-        <label class="labelText">Description: </label><textarea class="textarea" id="description"></textarea>
-        <label class="labelText">To reproduce: </label><textarea class="textarea" id="toReproduce"></textarea>
-        <label class="labelText">Workaround: </label><textarea class="textarea" id="workaround"></textarea>
-        <label class="labelText">Azure error: </label><textarea class="textarea" id="errorMsg"></textarea>
-
-        
-    </form>
     
-    </div>
-    <div class="buttonDiv">
-        <button class="button" onclick="printFormData()">Generate</button><br>
+    <div id="flexboxcontainer">
+        <div class="flex-flow-left">
+            <div class="inputForm">
+                <form class="form">
+                    <div class="form-row">
+                        <label class="labelText" for="orgID">Orgid: </label>
+                        <input class="inputInput" type="number" id="orgID">
+                    </div>
+                    <div class="form-row">
+                        <label class="labelText" for="userID">UserID: </label>
+                        <input class="inputInput" type="number" id="userID">
+                    </div>
+                    <div class="form-row">
+                        <label class="labelText" for="severity">Severity </label>
+                        <select name="severity" id="severity" onchange="ifSecurity()">
+                            <option value="severityOpt0">Choose severity</option>
+                            <option value="severityOpt1">Degraded functionality</option>
+                            <option value="severityOpt2">Blocked functionality</option>
+                            <option value="severityOpt3">Data loss</option>
+                            <option value="severityOpt4">Security issue</option>
+                        </select>
+                    </div>
+                    <div id="ifSecurityOpt" style="display: none;">Remember to set Jira to Critical!</div>
+                    <div class="form-row">
+                        <label class="labelText" for="affectedUsers">How many users are affected:</label>
+                        <select name="affectedUsers" id="affectedUsers" required>
+                            <option value="affectedOpt0">Choose option:</option>
+                            <option value="affectedOpt1">None</option>
+                            <option value="affectedOpt2">Few</option>
+                            <option value="affectedOpt3">Some</option>
+                            <option value="affectedOpt4">Many</option>
+                            <option value="affectedOpt5">All</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label class="labelText" for="environment">Environment Private/public cloud?</label>
+                        <select name="environment" id="environment">
+                            <option value="public">Public</option>
+                            <option value="private">Private</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label class="labelText" for="affectedFunctions">Affected function(s): </label>
+                        <input id="affectedFunctions" class="inputInput">
+                    </div>
+                    <div class="form-row">
+                        <label class="labelText" for="component">Component </label>
+                        <select id="component" class="inputInput"></select>
+                    </div>
+                    <div class="componentText" id="componentTeam"></div>
+                    <div class="form-row">
+                        <label class="labelText" for="description">Description: </label>
+                        <textarea class="textarea" id="description"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <label class="labelText" for="toReproduce">To reproduce: </label>
+                        <textarea class="textarea" id="toReproduce"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <label class="labelText" for="workaround">Workaround: </label>
+                        <textarea class="textarea" id="workaround"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <label class="labelText" for="errorMsg">Azure error: </label>
+                        <textarea class="textarea" id="errorMsg"></textarea>
+                    </div>
+                </form>
+                <div class="buttonDiv">
+                    <button class="button" onclick="printFormData()">Generate</button>
+                </div>
+            </div>
+        </div>
+        <div id="flex-flow-right">
+            <div class="outputForm" id="outputForm">
+                <div id="templateOutput" style="display: none;">
+                    <p id="orgIdOut">OrgID: <div id="orgIdDiv"></div></p>
+                    <p id="userIdOut">UserID: </p>
+                    <p id="severityOut">Severity: </p>
+                    <p id="affUsersOut">Affected users: </p>
+                    <p id="affFunctionsOut">Affected function(s): </p>
+                    <p id="descOut">Description: </p>
+                    <p id="toReproduceOut">To reproduce: </p>
+                    <p id="workaroundOut">Workaround: </p>
+                    <p id="azureOut">Azure error: </p>
+                </div>
+                <div id="outputText"></div>
+                <div class="buttonDiv" id="copyButtonDiv">
+                    <button class="button" id="copyToClip" onclick="copyToClipboard()">Copy to clipboard</button>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="flex-flow-right">
-        
-
-        <div class="outputForm" id="outputForm" >
-            <div id="templateOutput" style="display: none;">
-                <p id="orgIdOut">OrgID: <div id="orgIdDiv"></div></p>
-                <p id="userIdOut">UserID: </p>
-                <p id="severityOut">Severity: </p>
-                <p id="affUsersOut">Affected users: </p>
-                <p id="affFunctionsOut">Affected function(s): </p>
-                <p id="descOut">Description: </p>
-                <p id="toReproduceOut">To reproduce: </p>
-                <p id="workaroundOut">Workaround: </p>
-                <p id="azureOut">Azure error: </p>
-            </div>
-    
-            <div id="outputText"></div>
-            
-            <div class="buttonDiv" id="copyButtonDiv">
-                <button class="button" id="copyToClip" onclick="copyToClipboard()">Copy to clipboard</button>
-            </div>
-            
-
-
-        </div>
-</div>
-
-
-<script src="jiraform.js"></script>
+    <script src="jiraform.js"></script>
 </body>
-
 </html>

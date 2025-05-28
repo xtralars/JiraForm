@@ -9,6 +9,7 @@ const workaroundOut = document.getElementById('workaroundOut').innerHTML;
 const azureOut = document.getElementById('azureOut').innerHTML;
 
 const orgIdDiv = document.getElementById('orgIdDiv').innerHTML;
+const environment = document.getElementById('environment').innerHTML;
 
 
 function printFormData() {
@@ -21,6 +22,7 @@ function printFormData() {
     var toReproduce = document.getElementById('toReproduce').value;
     var workaround = document.getElementById('workaround').value;
     var errorMsg = document.getElementById('errorMsg').value;
+    var environment = document.getElementById('environment').options[document.getElementById('environment').selectedIndex].text;
 
     
 
@@ -28,6 +30,7 @@ function printFormData() {
                  "<strong>UserID:</strong> " + userID + "<br>" +
                  "<strong>Severity:</strong> " + severity + "<br>" +
                  "<strong>Affected Users:</strong> " + affectedUsers + "<br>" +
+                 "<strong>Environment: </strong>" + environment + "<br>" +
                  "<strong>Affected Function(s):</strong> " + affectedFunctions + "<br>" +
                  "<strong>Description:</strong> " + description + "<br>" +
                  "<strong>To Reproduce:</strong> " + toReproduce + "<br>" +

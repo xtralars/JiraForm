@@ -1,16 +1,53 @@
-const orgIdOut = document.getElementById('orgIdOut').innerHTML;
-const userIdOut = document.getElementById('userIdOut').innerHTML;
-const severityOut = document.getElementById('severityOut').innerHTML;
-const affUsersOut = document.getElementById('affUsersOut').innerHTML;
-const affFunctionsOut = document.getElementById('affFunctionsOut').innerHTML;
-const descOut = document.getElementById('descOut').innerHTML;
-const toReproduceOut = document.getElementById('toReproduceOut').innerHTML;
-const workaroundOut = document.getElementById('workaroundOut').innerHTML;
-const azureOut = document.getElementById('azureOut').innerHTML;
-
-const orgIdDiv = document.getElementById('orgIdDiv').innerHTML;
-const environment = document.getElementById('environment').innerHTML;
-
+function parseList(text) {
+    // Split text by new lines to handle multiline input
+    const lines = text.split('\n');
+    let isOrderedList = false;
+    let isUnorderedList = false;
+    
+    // Begin parsing
+    for (let i = 0; i < lines.length; i++) {
+        const trimmedLine = lines[i].trim();
+        
+        // Check for ordered list (e.g., lines starting with 1., 2., etc.)
+        if (/^\d+\.\s/.test(trimmedLine)) {
+            if (!isOrderedList) {
+                lines[i] = "<ol><li>" + trimmedLine.replace(/^\d+\.\s/, '') + "</li>";
+                isOrderedList = true;
+            } else {
+                lines[i] = "<li>" + trimmedLine.replace(/^\d+\.\s/, '') + "</li>";
+            }
+        }
+        // Check for unordered list (e.g., lines starting with -, *, etc.)
+        else if (/^[\*-]\s/.test(trimmedLine)) {
+            if (!isUnorderedList) {
+                lines[i] = "<ul><li>" + trimmedLine.replace(/^[\*-]\s/, '') + "</li>";
+                isUnorderedList = true;
+            } else {
+                lines[i] = "<li>" + trimmedLine.replace(/^[\*-]\s/, '') + "</li>";
+            }
+        } else {
+            // Close any open lists
+            if (isOrderedList) {
+                lines[i - 1] += "</ol>";
+                isOrderedList = false;
+            }
+            if (isUnorderedList) {
+                lines[i - 1] += "</ul>";
+                isUnorderedList = false;
+            }
+        }
+    }
+    
+    // Ensure lists are properly closed at the end of the input
+    if (isOrderedList) {
+        lines[lines.length - 1] += "</ol>";
+    }
+    if (isUnorderedList) {
+        lines[lines.length - 1] += "</ul>";
+    }
+    
+    return lines.join('\n');
+}
 
 function printFormData() {
     var orgID = document.getElementById('orgID').value;
@@ -24,7 +61,8 @@ function printFormData() {
     var errorMsg = document.getElementById('errorMsg').value;
     var environment = document.getElementById('environment').options[document.getElementById('environment').selectedIndex].text;
 
-    
+    // Parse lists in the "To Reproduce" field
+    var formattedToReproduce = parseList(toReproduce);
 
     var output = "<strong>Orgid:</strong> " + orgID + "<br>" +
                  "<strong>UserID:</strong> " + userID + "<br>" +
@@ -33,102 +71,13 @@ function printFormData() {
                  "<strong>Environment: </strong>" + environment + "<br>" +
                  "<strong>Affected Function(s):</strong> " + affectedFunctions + "<br>" +
                  "<strong>Description:</strong> " + description + "<br>" +
-                 "<strong>To Reproduce:</strong> " + toReproduce + "<br>" +
+                 "<strong>To Reproduce:</strong> " + formattedToReproduce + "<br>" +
                  "<strong>Workaround:</strong> " + workaround + "<br>" +
                  "<strong>Azure Error:</strong> " + errorMsg;
 
     document.getElementById('outputText').innerHTML = output;
 
-    
     orgIdOut.innerHTML = orgID;
-
     var copyButtonDiv = document.getElementById("copyButtonDiv");
     copyButtonDiv.style.display = "block";
 }
-
-
-function copyToClipboard() {
-    var outputText = document.getElementById('outputText').innerHTML;
-
-    navigator.clipboard.write([
-        new ClipboardItem({
-            "text/html": new Blob([outputText], { type: "text/html" })
-        })
-    ])
-    .catch(err => {
-        console.error('Unable to copy formatted text: ', err);
-    });
-}
-
-
-function ifSecurity(){
-    var selectElement = document.getElementById("severity");
-    var hiddenTextElement = document.getElementById("ifSecurityOpt");
-
-    if (selectElement.value === "severityOpt4") {
-        hiddenTextElement.style.display = "block";
-    } else {
-        hiddenTextElement.style.display = "none";
-    }
-}
-const componentList = document.getElementById('component');
-const componentTeam = document.getElementById('componentTeam');
-fetch('./components2.json')
-    .then(res => res.json())
-    .then(data => {
-        data.forEach(item =>{
-            const option = document.createElement('option');
-            option.value = item.function;
-            option.textContent = item.function;
-            componentList.appendChild(option);
-        });
-
-        componentList.addEventListener('change', () => {
-            const selectedItem = data.find(item => item.function === componentList.value);
-            componentTeam.textContent = `Team: ${selectedItem.team}`;
-        });
-        
-    });
-
-
-//copy of formatted text
-
-//original
-/*function copyToClipboard() {
-    var outputText = document.getElementById("outputText").innerHTML;
-    navigator.clipboard.writeText(outputText)
-    
-        
-        .catch(err => {
-            console.error('Could not copy text: ', err);
-        });
-}*/
-//new one
-function copyFormattedText() {
-    var formattedText = document.getElementById('formattedText').innerHTML;
-
-    navigator.clipboard.write([
-        new ClipboardItem({
-            "text/html": new Blob([formattedText], { type: "text/html" })
-        })
-    ]).then(() => {
-        alert('Formatted text copied to clipboard!');
-    }).catch(err => {
-        console.error('Unable to copy formatted text: ', err);
-    });
-}
-
-//combined
-/*function copyToClipboard() {
-    var outputText = document.getElementById('outputText').innerHTML;
-
-    navigator.clipboard.write([
-        new ClipboardItem({
-            "text/html": new Blob([outputText], { type: "text/html" })
-        })
-    ]).then(() => {
-        alert('Formatted text copied to clipboard!');
-    }).catch(err => {
-        console.error('Unable to copy formatted text: ', err);
-    });
-}*/

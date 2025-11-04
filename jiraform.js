@@ -60,9 +60,12 @@ function printFormData() {
     var workaround = document.getElementById('workaround').value;
     var errorMsg = document.getElementById('errorMsg').value;
     var environment = document.getElementById('environment').options[document.getElementById('environment').selectedIndex].text;
+    var tsAttempt = document.getElementById('tsAttempt').value;
 
     // Parse lists in the "To Reproduce" field
     var formattedToReproduce = parseList(toReproduce);
+    var formattedWorkaround = parseList(workaround);
+    var formattedToTSAttempt = parseList(tsAttempt);
 
     var output = "<strong>Orgid:</strong> " + orgID + "<br>" +
                  "<strong>UserID:</strong> " + userID + "<br>" +
@@ -71,8 +74,9 @@ function printFormData() {
                  "<strong>Environment: </strong>" + environment + "<br>" +
                  "<strong>Affected Function(s):</strong> " + affectedFunctions + "<br>" +
                  "<strong>Description:</strong> " + description + "<br>" +
-                 "<strong>To Reproduce:</strong> " + formattedToReproduce + "<br>" +
-                 "<strong>Workaround:</strong> " + workaround + "<br>" +
+                 "<strong>Steps to reproduce:</strong> " + formattedToReproduce + "<br>" +
+                 "<strong>Troubleshooting Attempted:</strong> " + formattedToTSAttempt + "<br>" +
+                 "<strong>Workaround:</strong> " + formattedWorkaround + "<br>" +
                  "<strong>Azure Error:</strong> " + errorMsg;
 
     document.getElementById('outputText').innerHTML = output;
@@ -81,3 +85,48 @@ function printFormData() {
     var copyButtonDiv = document.getElementById("copyButtonDiv");
     copyButtonDiv.style.display = "block";
 }
+
+function copyToClipboard() {
+var outputText = document.getElementById('outputText').innerHTML;
+
+
+navigator.clipboard.write([
+    new ClipboardItem({
+        "text/html": new Blob([outputText], { type: "text/html" })
+    })
+])
+.catch(err => {
+    console.error('Unable to copy formatted text: ', err);
+});
+}
+
+function ifSecurity(){
+var selectElement = document.getElementById("severity");
+var hiddenTextElement = document.getElementById("ifSecurityOpt");
+
+
+if (selectElement.value === "severityOpt4") {
+    hiddenTextElement.style.display = "block";
+} else {
+    hiddenTextElement.style.display = "none";
+}
+}
+const componentList = document.getElementById('component');
+const componentTeam = document.getElementById('componentTeam');
+fetch('./components2.json')
+.then(res => res.json())
+.then(data => {
+data.forEach(item =>{
+const option = document.createElement('option');
+option.value = item.function;
+option.textContent = item.function;
+componentList.appendChild(option);
+});
+
+
+    componentList.addEventListener('change', () => {
+        const selectedItem = data.find(item => item.function === componentList.value);
+        componentTeam.textContent = `Team: ${selectedItem.team}`;
+    });
+    
+});

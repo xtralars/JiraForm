@@ -80,8 +80,9 @@ function printFormData() {
                  "<strong>Azure Error:</strong> " + errorMsg;
 
     document.getElementById('outputText').innerHTML = output;
+    document.querySelector('.outputSection').style.display = 'block';
 
-    orgIdOut.innerHTML = orgID;
+    
     var copyButtonDiv = document.getElementById("copyButtonDiv");
     copyButtonDiv.style.display = "block";
 }

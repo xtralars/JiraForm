@@ -114,7 +114,7 @@ if (selectElement.value === "severityOpt4") {
 }
 const componentList = document.getElementById('component');
 const componentTeam = document.getElementById('componentTeam');
-fetch('./components2.json')
+fetch('./components3.json')
 .then(res => res.json())
 .then(data => {
 data.forEach(item =>{

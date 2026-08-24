@@ -1,630 +1,630 @@
 [
   {
-    "Component": "Main settings page - Global system settings - Portal banner",
+    "Function": "Main settings page - Global system settings - Portal banner",
     "Team": "API"
   },
   {
-    "Component": "MobileAPI� - Data sync  -",
+    "Function": "MobileAPI� - Data sync  -",
     "Team": "API"
   },
   {
-    "Component": "MobileAPI� - Wipe� -",
+    "Function": "MobileAPI� - Wipe� -",
     "Team": "API"
   },
   {
-    "Component": "Push notifications� -  - Push Service�- Badges�",
+    "Function": "Push notifications� -  - Push Service�- Badges�",
     "Team": "API"
   },
   {
-    "Component": "Home / Landing page� - About� -",
+    "Function": "Home / Landing page� - About� -",
     "Team": "API"
   },
   {
-    "Component": "Main settings page - Add user -",
+    "Function": "Main settings page - Add user -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Annotations� - Upload processing service�",
+    "Function": "Documents� - Annotations� - Upload processing service�",
     "Team": "Hurricane"
   },
   {
-    "Component": "Home / Landing page� - Banner / Icon / Portal Logo� -",
+    "Function": "Home / Landing page� - Banner / Icon / Portal Logo� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Bookmarks� - FileAPI�",
+    "Function": "Documents� - Bookmarks� - FileAPI�",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Bulk update items -",
+    "Function": "Main settings page - Bulk update items -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Q&A� - Bulk Update� -",
+    "Function": "Q&A� - Bulk Update� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Comments� -",
+    "Function": "Documents� - Comments� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Home / Landing page� - Contact Support� -",
+    "Function": "Home / Landing page� - Contact Support� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Contracts� -",
+    "Function": "Folder Structure� - Contracts� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Copy Folder� -",
+    "Function": "Folder Structure� - Copy Folder� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Create folder� -",
+    "Function": "Folder Structure� - Create folder� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Translations� - Crowdin� -",
+    "Function": "Translations� - Crowdin� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Home / Landing page� - Dashboard� -",
+    "Function": "Home / Landing page� - Dashboard� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Default folder� -",
+    "Function": "Folder Structure� - Default folder� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Delete Folder� -",
+    "Function": "Folder Structure� - Delete Folder� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Home / Landing page� - Disclaimer� -",
+    "Function": "Home / Landing page� - Disclaimer� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Document� -",
+    "Function": "Documents� - Document� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Download / Multiple downloads� -",
+    "Function": "Documents� - Download / Multiple downloads� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Download settings -",
+    "Function": "Main settings page - Download settings -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Export� - Download site� -",
+    "Function": "Export� - Download site� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Email templates� -",
+    "Function": "Folder Structure� - Email templates� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Emails and notifications - Task subscriptions",
+    "Function": "Main settings page - Emails and notifications - Task subscriptions",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Emails and notifications - Folder subscriptions",
+    "Function": "Main settings page - Emails and notifications - Folder subscriptions",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Export -",
+    "Function": "Main settings page - Export -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Folder access� -",
+    "Function": "Folder Structure� - Folder access� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Folder actions� -",
+    "Function": "Folder Structure� - Folder actions� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Folder Structure� -",
+    "Function": "Folder Structure� - Folder Structure� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Folder subscriptions� -",
+    "Function": "Folder Structure� - Folder subscriptions� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Global system settings - Portal logo",
+    "Function": "Main settings page - Global system settings - Portal logo",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Global system settings - Portal icon",
+    "Function": "Main settings page - Global system settings - Portal icon",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Global system settings - Profile picture",
+    "Function": "Main settings page - Global system settings - Profile picture",
     "Team": "Hurricane"
   },
   {
-    "Component": "Home / Landing page� - Help� -",
+    "Function": "Home / Landing page� - Help� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Search� - Indexing� - SolrIndexCrawler�",
+    "Function": "Search� - Indexing� - SolrIndexCrawler�",
     "Team": "Hurricane"
   },
   {
-    "Component": "Home / Landing page� - Landing page� -",
+    "Function": "Home / Landing page� - Landing page� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Manage portal subscriptions -",
+    "Function": "Main settings page - Manage portal subscriptions -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Manage Q&A categories -",
+    "Function": "Main settings page - Manage Q&A categories -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Manage users and permissions -",
+    "Function": "Main settings page - Manage users and permissions -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Merge� -",
+    "Function": "Documents� - Merge� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Move Folder� -",
+    "Function": "Folder Structure� - Move Folder� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Home / Landing page� - Navigation bar� -",
+    "Function": "Home / Landing page� - Navigation bar� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Registration page� - Onboarding� -",
+    "Function": "Registration page� - Onboarding� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Page numbering� -",
+    "Function": "Documents� - Page numbering� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Home / Landing page� - pNPS� -",
+    "Function": "Home / Landing page� - pNPS� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Home / Landing page� - Portal switcher� -",
+    "Function": "Home / Landing page� - Portal switcher� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Print� -",
+    "Function": "Documents� - Print� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Q&A� - Q&A categories� -",
+    "Function": "Q&A� - Q&A categories� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Q&A Settings -",
+    "Function": "Main settings page - Q&A Settings -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Q&A� - Q&A� -",
+    "Function": "Q&A� - Q&A� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Recent Items� -",
+    "Function": "Documents� - Recent Items� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Redaction� -",
+    "Function": "Documents� - Redaction� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Reset sort order� -",
+    "Function": "Folder Structure� - Reset sort order� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Roles/Folder permissions -",
+    "Function": "Main settings page - Roles/Folder permissions -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - securrites� -",
+    "Function": "Documents� - securrites� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Search� - Solr� -",
+    "Function": "Search� - Solr� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Sorting� -",
+    "Function": "Folder Structure� - Sorting� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - System -",
+    "Function": "Main settings page - System -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - Task management -",
+    "Function": "Main settings page - Task management -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Test data generator (BackOffice)� -",
+    "Function": "Documents� - Test data generator (BackOffice)� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Test data generator� -",
+    "Function": "Folder Structure� - Test data generator� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Q&A� - Test data generator� -",
+    "Function": "Q&A� - Test data generator� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Translations� - Translation Tool� -",
+    "Function": "Translations� - Translation Tool� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Folder Structure� - Tree view (VDR)� -",
+    "Function": "Folder Structure� - Tree view (VDR)� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Upload� -",
+    "Function": "Documents� - Upload� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - User profile -",
+    "Function": "Main settings page - User profile -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Main settings page - User roles -",
+    "Function": "Main settings page - User roles -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - View / Document Viewer� -",
+    "Function": "Documents� - View / Document Viewer� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Documents� - Watermarks� -",
+    "Function": "Documents� - Watermarks� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Luminance� -  - SyncApi�",
+    "Function": "Luminance� -  - SyncApi�",
     "Team": "Hurricane"
   },
   {
-    "Component": "Reports� -  -",
+    "Function": "Reports� -  -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Task management� -  -",
+    "Function": "Task management� -  -",
     "Team": "Hurricane"
   },
   {
-    "Component": "Analytics� - Snowplow� -",
+    "Function": "Analytics� - Snowplow� -",
     "Team": "Hurricane"
   },
   {
-    "Component": "BackOffice� - Admin� -",
+    "Function": "BackOffice� - Admin� -",
     "Team": "Platform"
   },
   {
-    "Component": "BackOffice� - Licenses� -",
+    "Function": "BackOffice� - Licenses� -",
     "Team": "Platform"
   },
   {
-    "Component": "BackOffice� - Portals� -",
+    "Function": "BackOffice� - Portals� -",
     "Team": "Platform"
   },
   {
-    "Component": "BackOffice� - Search� -",
+    "Function": "BackOffice� - Search� -",
     "Team": "Platform"
   },
   {
-    "Component": "BackOffice� - System Roles� -",
+    "Function": "BackOffice� - System Roles� -",
     "Team": "Platform"
   },
   {
-    "Component": "BackOffice� - Templates� -",
+    "Function": "BackOffice� - Templates� -",
     "Team": "Platform"
   },
   {
-    "Component": "BackOffice� - User Roles� -",
+    "Function": "BackOffice� - User Roles� -",
     "Team": "Platform"
   },
   {
-    "Component": "Business Intelligence - Google Big Query sync -",
+    "Function": "Business Intelligence - Google Big Query sync -",
     "Team": "Platform"
   },
   {
-    "Component": "Cloud Login� - PortalPicker� -",
+    "Function": "Cloud Login� - PortalPicker� -",
     "Team": "Platform"
   },
   {
-    "Component": "Cloud Login� - Sql Data Sync� -",
+    "Function": "Cloud Login� - Sql Data Sync� -",
     "Team": "Platform"
   },
   {
-    "Component": "Cloud Login� - UserApi� -",
+    "Function": "Cloud Login� - UserApi� -",
     "Team": "Platform"
   },
   {
-    "Component": "DealHub� -  -",
+    "Function": "DealHub� -  -",
     "Team": "Platform"
   },
   {
-    "Component": "DPS� -  -",
+    "Function": "DPS� -  -",
     "Team": "Platform"
   },
   {
-    "Component": "Email providers� -  - Email providers (Mailjet, Office365 ?)�",
+    "Function": "Email providers� -  - Email providers (Mailjet, Office365 ?)�",
     "Team": "Platform"
   },
   {
-    "Component": "Identity Server� -  -",
+    "Function": "Identity Server� -  -",
     "Team": "Platform"
   },
   {
-    "Component": "Login� - 2FA� - Bypass�",
+    "Function": "Login� - 2FA� - Bypass�",
     "Team": "Platform"
   },
   {
-    "Component": "Login� - Authenticator APP� - Identity Server�",
+    "Function": "Login� - Authenticator APP� - Identity Server�",
     "Team": "Platform"
   },
   {
-    "Component": "Login� - Bypassrep� -",
+    "Function": "Login� - Bypassrep� -",
     "Team": "Platform"
   },
   {
-    "Component": "Login� - E-ID� -",
+    "Function": "Login� - E-ID� -",
     "Team": "Platform"
   },
   {
-    "Component": "Login� - Reset password� -",
+    "Function": "Login� - Reset password� -",
     "Team": "Platform"
   },
   {
-    "Component": "Login� - Username /v Password� -",
+    "Function": "Login� - Username /v Password� -",
     "Team": "Platform"
   },
   {
-    "Component": "Main settings page - Active sessions -",
+    "Function": "Main settings page - Active sessions -",
     "Team": "Platform"
   },
   {
-    "Component": "Main settings page - Cookie settings and privacy policy -",
+    "Function": "Main settings page - Cookie settings and privacy policy -",
     "Team": "Platform"
   },
   {
-    "Component": "Main settings page - Emails and notifications - System subscriptions",
+    "Function": "Main settings page - Emails and notifications - System subscriptions",
     "Team": "Platform"
   },
   {
-    "Component": "Main settings page - Login and Electronic ID -",
+    "Function": "Main settings page - Login and Electronic ID -",
     "Team": "Platform"
   },
   {
-    "Component": "Provisioning� - Salesforce� - ProvisioningService�",
+    "Function": "Provisioning� - Salesforce� - ProvisioningService�",
     "Team": "Platform"
   },
   {
-    "Component": "Provisioning� - Zuora� - ProvisioningApi�",
+    "Function": "Provisioning� - Zuora� - ProvisioningApi�",
     "Team": "Platform"
   },
   {
-    "Component": "Provisioning� -  - ProvisioningSplitApi�",
+    "Function": "Provisioning� -  - ProvisioningSplitApi�",
     "Team": "Platform"
   },
   {
-    "Component": "SMS providers� -  -",
+    "Function": "SMS providers� -  -",
     "Team": "Platform"
   },
   {
-    "Component": "-  - Cleanup Service�",
+    "Function": "-  - Cleanup Service�",
     "Team": "Platform"
   },
   {
-    "Component": "Delete portal / Delete User� -  - GDPR Service�",
+    "Function": "Delete portal / Delete User� -  - GDPR Service�",
     "Team": "Platform"
   },
   {
-    "Component": "Delete portal / Delete User� -  - ConvertWorker�",
+    "Function": "Delete portal / Delete User� -  - ConvertWorker�",
     "Team": "Platform Cloud�"
   },
   {
-    "Component": "Feature Toggles� - Launch Darkly� -",
+    "Function": "Feature Toggles� - Launch Darkly� -",
     "Team": "Platform Cloud�"
   },
   {
-    "Component": "Message Queuing� - Azure Service Bus� - Admincontrol.Messaging (Nuget package)�",
+    "Function": "Message Queuing� - Azure Service Bus� - Admincontrol.Messaging (Nuget package)�",
     "Team": "Platform Cloud�"
   },
   {
-    "Component": "Message Queuing� - RabbitMQ� -",
+    "Function": "Message Queuing� - RabbitMQ� -",
     "Team": "Platform Cloud�"
   },
   {
-    "Component": "Redis� -  -",
+    "Function": "Redis� -  -",
     "Team": "Platform Cloud�"
   },
   {
-    "Component": "Task management� -  - SignalR�",
+    "Function": "Task management� -  - SignalR�",
     "Team": "Platform Cloud�"
   },
   {
-    "Component": "TBD -  - CI/CD Architecture & Infrastructure�",
+    "Function": "TBD -  - CI/CD Architecture & Infrastructure�",
     "Team": "Platform Cloud�"
   },
   {
-    "Component": "- Observability� -",
+    "Function": "- Observability� -",
     "Team": "Platform Cloud�"
   },
   {
-    "Component": "-  - Subscription Service�",
+    "Function": "-  - Subscription Service�",
     "Team": "Platform Cloud�"
   },
   {
-    "Component": "-  - Log Aggregate�",
+    "Function": "-  - Log Aggregate�",
     "Team": "Platform Cloud�"
   },
   {
-    "Component": "Suitability Assessment -  -",
+    "Function": "Suitability Assessment -  -",
     "Team": "Platform Cloud�"
   },
   {
-    "Component": "Meetings� - Meeting minutes extract� -",
+    "Function": "Meetings� - Meeting minutes extract� -",
     "Team": "Sunshine"
   },
   {
-    "Component": "Meetings� - Meeting minutes� -",
+    "Function": "Meetings� - Meeting minutes� -",
     "Team": "Thundersnow (Blizzard)"
   },
   {
-    "Component": "Secure Messaging� - Secure Messaging� -",
+    "Function": "Secure Messaging� - Secure Messaging� -",
     "Team": "Thundersnow (Blizzard)"
   },
   {
-    "Component": "Meetings� - Access history� -",
+    "Function": "Meetings� - Access history� -",
     "Team": "Thundersnow (Blizzard)"
   },
   {
-    "Component": "Meetings� - Add meeting� -",
+    "Function": "Meetings� - Add meeting� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Agenda� -",
+    "Function": "Meetings� - Agenda� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Attachments� -",
+    "Function": "Meetings� - Attachments� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Comments� -",
+    "Function": "Meetings� - Comments� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Create new meeting� -",
+    "Function": "Meetings� - Create new meeting� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Custom numbering� -",
+    "Function": "Meetings� - Custom numbering� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Edit, Lock and Delete meeting� -",
+    "Function": "Meetings� - Edit, Lock and Delete meeting� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Meeting book� -",
+    "Function": "Meetings� - Meeting book� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Meeting List� -",
+    "Function": "Meetings� - Meeting List� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Meeting widget� -",
+    "Function": "Meetings� - Meeting widget� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Notify (meeting)� -",
+    "Function": "Meetings� - Notify (meeting)� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Publish / Republish� -",
+    "Function": "Meetings� - Publish / Republish� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Share and discuss meeting minutes� -",
+    "Function": "Meetings� - Share and discuss meeting minutes� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Test data generator (BackOffice)� -",
+    "Function": "Meetings� - Test data generator (BackOffice)� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Meetings� - Text Editor� -",
+    "Function": "Meetings� - Text Editor� -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Annual Board Calendar� -  -",
+    "Function": "Annual Board Calendar� -  -",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "Main settings page - Emails and notifications - Secure message subscriptions",
+    "Function": "Main settings page - Emails and notifications - Secure message subscriptions",
     "Team": "Thundersnow (Hailstorm)"
   },
   {
-    "Component": "- Monolith API� - Internal Services API�",
+    "Function": "- Monolith API� - Internal Services API�",
     "Team": "Tornado"
   },
   {
-    "Component": "Main settings page - Organization functions -",
+    "Function": "Main settings page - Organization functions -",
     "Team": "Tornado"
   },
   {
-    "Component": "Decisions� -  -",
+    "Function": "Decisions� -  -",
     "Team": "Tornado"
   },
   {
-    "Component": "Search  - AI Search -",
+    "Function": "Search  - AI Search -",
     "Team": "Tornado"
   },
   {
-    "Component": "Documents  - Executive summary -",
+    "Function": "Documents  - Executive summary -",
     "Team": "Typhoon"
   },
   {
-    "Component": "Search� - OCR� -",
+    "Function": "Search� - OCR� -",
     "Team": "Typhoon"
   },
   {
-    "Component": "Search  - Short summaries - Short summaries for AI powered search",
+    "Function": "Search  - Short summaries - Short summaries for AI powered search",
     "Team": "Typhoon"
   },
   {
-    "Component": "Pendo -  -",
+    "Function": "Pendo -  -",
     "Team": "Typhoon"
   },
   {
-    "Component": "Electronic Signing� - Batch signing� -",
+    "Function": "Electronic Signing� - Batch signing� -",
     "Team": "Typhoon"
   },
   {
-    "Component": "Electronic Signing� - Create/update Signature requests� - CallbackApi�",
+    "Function": "Electronic Signing� - Create/update Signature requests� - CallbackApi�",
     "Team": "Vortex�"
   },
   {
-    "Component": "Electronic Signing� - Notify (SR)� - SigningService�",
+    "Function": "Electronic Signing� - Notify (SR)� - SigningService�",
     "Team": "Vortex�"
   },
   {
-    "Component": "Electronic Signing� - Quick sign page� -",
+    "Function": "Electronic Signing� - Quick sign page� -",
     "Team": "Vortex�"
   },
   {
-    "Component": "Electronic Signing� - Reminders (SR)� -",
+    "Function": "Electronic Signing� - Reminders (SR)� -",
     "Team": "Vortex�"
   },
   {
-    "Component": "Notifications - Sending and/or queuing notifications (email/SMS/push)� - Admincontrol.Notification (NuGet Package)�",
+    "Function": "Notifications - Sending and/or queuing notifications (email/SMS/push)� - Admincontrol.Notification (NuGet Package)�",
     "Team": "Vortex�"
   },
   {
-    "Component": "Electronic Signing� - Signature levels� -",
+    "Function": "Electronic Signing� - Signature levels� -",
     "Team": "Vortex�"
   },
   {
-    "Component": "Electronic Signing� - SR widget� -",
+    "Function": "Electronic Signing� - SR widget� -",
     "Team": "Vortex�"
   },
   {
-    "Component": "Board Evaluation� - Survey� -",
+    "Function": "Board Evaluation� - Survey� -",
     "Team": "Vortex�"
   },
   {
-    "Component": "",
+    "Function": "",
     "Team": "Vortex�"
   }
 ]

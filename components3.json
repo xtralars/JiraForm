@@ -4,19 +4,19 @@
     "team": "API"
   },
   {
-    "function": "MobileAPI� - Data sync  -",
+    "function": "MobileAPI - Data sync  -",
     "team": "API"
   },
   {
-    "function": "MobileAPI� - Wipe� -",
+    "function": "MobileAPI - Wipe -",
     "team": "API"
   },
   {
-    "function": "Push notifications� -  - Push Service�- Badges�",
+    "function": "Push notifications -  - Push Service- Badges",
     "team": "API"
   },
   {
-    "function": "Home / Landing page� - About� -",
+    "function": "Home / Landing page - About -",
     "team": "API"
   },
   {
@@ -24,15 +24,15 @@
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Annotations� - Upload processing service�",
+    "function": "Documents - Annotations - Upload processing service",
     "team": "Hurricane"
   },
   {
-    "function": "Home / Landing page� - Banner / Icon / Portal Logo� -",
+    "function": "Home / Landing page - Banner / Icon / Portal Logo -",
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Bookmarks� - FileAPI�",
+    "function": "Documents - Bookmarks - FileAPI",
     "team": "Hurricane"
   },
   {
@@ -40,55 +40,55 @@
     "team": "Hurricane"
   },
   {
-    "function": "Q&A� - Bulk Update� -",
+    "function": "Q&A - Bulk Update -",
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Comments� -",
+    "function": "Documents - Comments -",
     "team": "Hurricane"
   },
   {
-    "function": "Home / Landing page� - Contact Support� -",
+    "function": "Home / Landing page - Contact Support -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Contracts� -",
+    "function": "Folder Structure - Contracts -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Copy Folder� -",
+    "function": "Folder Structure - Copy Folder -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Create folder� -",
+    "function": "Folder Structure - Create folder -",
     "team": "Hurricane"
   },
   {
-    "function": "Translations� - Crowdin� -",
+    "function": "Translations - Crowdin -",
     "team": "Hurricane"
   },
   {
-    "function": "Home / Landing page� - Dashboard� -",
+    "function": "Home / Landing page - Dashboard -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Default folder� -",
+    "function": "Folder Structure - Default folder -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Delete Folder� -",
+    "function": "Folder Structure - Delete Folder -",
     "team": "Hurricane"
   },
   {
-    "function": "Home / Landing page� - Disclaimer� -",
+    "function": "Home / Landing page - Disclaimer -",
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Document� -",
+    "function": "Documents - Document -",
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Download / Multiple downloads� -",
+    "function": "Documents - Download / Multiple downloads -",
     "team": "Hurricane"
   },
   {
@@ -96,11 +96,11 @@
     "team": "Hurricane"
   },
   {
-    "function": "Export� - Download site� -",
+    "function": "Export - Download site -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Email templates� -",
+    "function": "Folder Structure - Email templates -",
     "team": "Hurricane"
   },
   {
@@ -116,19 +116,19 @@
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Folder access� -",
+    "function": "Folder Structure - Folder access -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Folder actions� -",
+    "function": "Folder Structure - Folder actions -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Folder Structure� -",
+    "function": "Folder Structure - Folder Structure -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Folder subscriptions� -",
+    "function": "Folder Structure - Folder subscriptions -",
     "team": "Hurricane"
   },
   {
@@ -144,15 +144,15 @@
     "team": "Hurricane"
   },
   {
-    "function": "Home / Landing page� - Help� -",
+    "function": "Home / Landing page - Help -",
     "team": "Hurricane"
   },
   {
-    "function": "Search� - Indexing� - SolrIndexCrawler�",
+    "function": "Search - Indexing - SolrIndexCrawler",
     "team": "Hurricane"
   },
   {
-    "function": "Home / Landing page� - Landing page� -",
+    "function": "Home / Landing page - Landing page -",
     "team": "Hurricane"
   },
   {
@@ -168,39 +168,39 @@
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Merge� -",
+    "function": "Documents - Merge -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Move Folder� -",
+    "function": "Folder Structure - Move Folder -",
     "team": "Hurricane"
   },
   {
-    "function": "Home / Landing page� - Navigation bar� -",
+    "function": "Home / Landing page - Navigation bar -",
     "team": "Hurricane"
   },
   {
-    "function": "Registration page� - Onboarding� -",
+    "function": "Registration page - Onboarding -",
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Page numbering� -",
+    "function": "Documents - Page numbering -",
     "team": "Hurricane"
   },
   {
-    "function": "Home / Landing page� - pNPS� -",
+    "function": "Home / Landing page - pNPS -",
     "team": "Hurricane"
   },
   {
-    "function": "Home / Landing page� - Portal switcher� -",
+    "function": "Home / Landing page - Portal switcher -",
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Print� -",
+    "function": "Documents - Print -",
     "team": "Hurricane"
   },
   {
-    "function": "Q&A� - Q&A categories� -",
+    "function": "Q&A - Q&A categories -",
     "team": "Hurricane"
   },
   {
@@ -208,19 +208,19 @@
     "team": "Hurricane"
   },
   {
-    "function": "Q&A� - Q&A� -",
+    "function": "Q&A - Q&A -",
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Recent Items� -",
+    "function": "Documents - Recent Items -",
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Redaction� -",
+    "function": "Documents - Redaction -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Reset sort order� -",
+    "function": "Folder Structure - Reset sort order -",
     "team": "Hurricane"
   },
   {
@@ -228,15 +228,15 @@
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - securrites� -",
+    "function": "Documents - securrites -",
     "team": "Hurricane"
   },
   {
-    "function": "Search� - Solr� -",
+    "function": "Search - Solr -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Sorting� -",
+    "function": "Folder Structure - Sorting -",
     "team": "Hurricane"
   },
   {
@@ -248,27 +248,27 @@
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Test data generator (BackOffice)� -",
+    "function": "Documents - Test data generator (BackOffice) -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Test data generator� -",
+    "function": "Folder Structure - Test data generator -",
     "team": "Hurricane"
   },
   {
-    "function": "Q&A� - Test data generator� -",
+    "function": "Q&A - Test data generator -",
     "team": "Hurricane"
   },
   {
-    "function": "Translations� - Translation Tool� -",
+    "function": "Translations - Translation Tool -",
     "team": "Hurricane"
   },
   {
-    "function": "Folder Structure� - Tree view (VDR)� -",
+    "function": "Folder Structure - Tree view (VDR) -",
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Upload� -",
+    "function": "Documents - Upload -",
     "team": "Hurricane"
   },
   {
@@ -280,55 +280,55 @@
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - View / Document Viewer� -",
+    "function": "Documents - View / Document Viewer -",
     "team": "Hurricane"
   },
   {
-    "function": "Documents� - Watermarks� -",
+    "function": "Documents - Watermarks -",
     "team": "Hurricane"
   },
   {
-    "function": "Luminance� -  - SyncApi�",
+    "function": "Luminance -  - SyncApi",
     "team": "Hurricane"
   },
   {
-    "function": "Reports� -  -",
+    "function": "Reports -  -",
     "team": "Hurricane"
   },
   {
-    "function": "Task management� -  -",
+    "function": "Task management -  -",
     "team": "Hurricane"
   },
   {
-    "function": "Analytics� - Snowplow� -",
+    "function": "Analytics - Snowplow -",
     "team": "Hurricane"
   },
   {
-    "function": "BackOffice� - Admin� -",
+    "function": "BackOffice - Admin -",
     "team": "Platform"
   },
   {
-    "function": "BackOffice� - Licenses� -",
+    "function": "BackOffice - Licenses -",
     "team": "Platform"
   },
   {
-    "function": "BackOffice� - Portals� -",
+    "function": "BackOffice - Portals -",
     "team": "Platform"
   },
   {
-    "function": "BackOffice� - Search� -",
+    "function": "BackOffice - Search -",
     "team": "Platform"
   },
   {
-    "function": "BackOffice� - System Roles� -",
+    "function": "BackOffice - System Roles -",
     "team": "Platform"
   },
   {
-    "function": "BackOffice� - Templates� -",
+    "function": "BackOffice - Templates -",
     "team": "Platform"
   },
   {
-    "function": "BackOffice� - User Roles� -",
+    "function": "BackOffice - User Roles -",
     "team": "Platform"
   },
   {
@@ -336,55 +336,55 @@
     "team": "Platform"
   },
   {
-    "function": "Cloud Login� - PortalPicker� -",
+    "function": "Cloud Login - PortalPicker -",
     "team": "Platform"
   },
   {
-    "function": "Cloud Login� - Sql Data Sync� -",
+    "function": "Cloud Login - Sql Data Sync -",
     "team": "Platform"
   },
   {
-    "function": "Cloud Login� - UserApi� -",
+    "function": "Cloud Login - UserApi -",
     "team": "Platform"
   },
   {
-    "function": "DealHub� -  -",
+    "function": "DealHub -  -",
     "team": "Platform"
   },
   {
-    "function": "DPS� -  -",
+    "function": "DPS -  -",
     "team": "Platform"
   },
   {
-    "function": "Email providers� -  - Email providers (Mailjet, Office365 ?)�",
+    "function": "Email providers -  - Email providers (Mailjet, Office365 ?)",
     "team": "Platform"
   },
   {
-    "function": "Identity Server� -  -",
+    "function": "Identity Server -  -",
     "team": "Platform"
   },
   {
-    "function": "Login� - 2FA� - Bypass�",
+    "function": "Login - 2FA - Bypass",
     "team": "Platform"
   },
   {
-    "function": "Login� - Authenticator APP� - Identity Server�",
+    "function": "Login - Authenticator APP - Identity Server",
     "team": "Platform"
   },
   {
-    "function": "Login� - Bypassrep� -",
+    "function": "Login - Bypassrep -",
     "team": "Platform"
   },
   {
-    "function": "Login� - E-ID� -",
+    "function": "Login - E-ID -",
     "team": "Platform"
   },
   {
-    "function": "Login� - Reset password� -",
+    "function": "Login - Reset password -",
     "team": "Platform"
   },
   {
-    "function": "Login� - Username /v Password� -",
+    "function": "Login - Username /v Password -",
     "team": "Platform"
   },
   {
@@ -404,151 +404,151 @@
     "team": "Platform"
   },
   {
-    "function": "Provisioning� - Salesforce� - ProvisioningService�",
+    "function": "Provisioning - Salesforce - ProvisioningService",
     "team": "Platform"
   },
   {
-    "function": "Provisioning� - Zuora� - ProvisioningApi�",
+    "function": "Provisioning - Zuora - ProvisioningApi",
     "team": "Platform"
   },
   {
-    "function": "Provisioning� -  - ProvisioningSplitApi�",
+    "function": "Provisioning -  - ProvisioningSplitApi",
     "team": "Platform"
   },
   {
-    "function": "SMS providers� -  -",
+    "function": "SMS providers -  -",
     "team": "Platform"
   },
   {
-    "function": "-  - Cleanup Service�",
+    "function": "-  - Cleanup Service",
     "team": "Platform"
   },
   {
-    "function": "Delete portal / Delete User� -  - GDPR Service�",
+    "function": "Delete portal / Delete User -  - GDPR Service",
     "team": "Platform"
   },
   {
-    "function": "Delete portal / Delete User� -  - ConvertWorker�",
-    "team": "Platform Cloud�"
+    "function": "Delete portal / Delete User -  - ConvertWorker",
+    "team": "Platform Cloud"
   },
   {
-    "function": "Feature Toggles� - Launch Darkly� -",
-    "team": "Platform Cloud�"
+    "function": "Feature Toggles - Launch Darkly -",
+    "team": "Platform Cloud"
   },
   {
-    "function": "Message Queuing� - Azure Service Bus� - Admincontrol.Messaging (Nuget package)�",
-    "team": "Platform Cloud�"
+    "function": "Message Queuing - Azure Service Bus - Admincontrol.Messaging (Nuget package)",
+    "team": "Platform Cloud"
   },
   {
-    "function": "Message Queuing� - RabbitMQ� -",
-    "team": "Platform Cloud�"
+    "function": "Message Queuing - RabbitMQ -",
+    "team": "Platform Cloud"
   },
   {
-    "function": "Redis� -  -",
-    "team": "Platform Cloud�"
+    "function": "Redis -  -",
+    "team": "Platform Cloud"
   },
   {
-    "function": "Task management� -  - SignalR�",
-    "team": "Platform Cloud�"
+    "function": "Task management -  - SignalR",
+    "team": "Platform Cloud"
   },
   {
-    "function": "TBD -  - CI/CD Architecture & Infrastructure�",
-    "team": "Platform Cloud�"
+    "function": "TBD -  - CI/CD Architecture & Infrastructure",
+    "team": "Platform Cloud"
   },
   {
-    "function": "- Observability� -",
-    "team": "Platform Cloud�"
+    "function": "- Observability -",
+    "team": "Platform Cloud"
   },
   {
-    "function": "-  - Subscription Service�",
-    "team": "Platform Cloud�"
+    "function": "-  - Subscription Service",
+    "team": "Platform Cloud"
   },
   {
-    "function": "-  - Log Aggregate�",
-    "team": "Platform Cloud�"
+    "function": "-  - Log Aggregate",
+    "team": "Platform Cloud"
   },
   {
     "function": "Suitability Assessment -  -",
-    "team": "Platform Cloud�"
+    "team": "Platform Cloud"
   },
   {
-    "function": "Meetings� - Meeting minutes extract� -",
+    "function": "Meetings - Meeting minutes extract -",
     "team": "Sunshine"
   },
   {
-    "function": "Meetings� - Meeting minutes� -",
+    "function": "Meetings - Meeting minutes -",
     "team": "Thundersnow (Blizzard)"
   },
   {
-    "function": "Secure Messaging� - Secure Messaging� -",
+    "function": "Secure Messaging - Secure Messaging -",
     "team": "Thundersnow (Blizzard)"
   },
   {
-    "function": "Meetings� - Access history� -",
+    "function": "Meetings - Access history -",
     "team": "Thundersnow (Blizzard)"
   },
   {
-    "function": "Meetings� - Add meeting� -",
+    "function": "Meetings - Add meeting -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Agenda� -",
+    "function": "Meetings - Agenda -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Attachments� -",
+    "function": "Meetings - Attachments -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Comments� -",
+    "function": "Meetings - Comments -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Create new meeting� -",
+    "function": "Meetings - Create new meeting -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Custom numbering� -",
+    "function": "Meetings - Custom numbering -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Edit, Lock and Delete meeting� -",
+    "function": "Meetings - Edit, Lock and Delete meeting -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Meeting book� -",
+    "function": "Meetings - Meeting book -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Meeting List� -",
+    "function": "Meetings - Meeting List -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Meeting widget� -",
+    "function": "Meetings - Meeting widget -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Notify (meeting)� -",
+    "function": "Meetings - Notify (meeting) -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Publish / Republish� -",
+    "function": "Meetings - Publish / Republish -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Share and discuss meeting minutes� -",
+    "function": "Meetings - Share and discuss meeting minutes -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Test data generator (BackOffice)� -",
+    "function": "Meetings - Test data generator (BackOffice) -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Meetings� - Text Editor� -",
+    "function": "Meetings - Text Editor -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "Annual Board Calendar� -  -",
+    "function": "Annual Board Calendar -  -",
     "team": "Thundersnow (Hailstorm)"
   },
   {
@@ -556,7 +556,7 @@
     "team": "Thundersnow (Hailstorm)"
   },
   {
-    "function": "- Monolith API� - Internal Services API�",
+    "function": "- Monolith API - Internal Services API",
     "team": "Tornado"
   },
   {
@@ -564,7 +564,7 @@
     "team": "Tornado"
   },
   {
-    "function": "Decisions� -  -",
+    "function": "Decisions -  -",
     "team": "Tornado"
   },
   {
@@ -576,7 +576,7 @@
     "team": "Typhoon"
   },
   {
-    "function": "Search� - OCR� -",
+    "function": "Search - OCR -",
     "team": "Typhoon"
   },
   {
@@ -588,43 +588,43 @@
     "team": "Typhoon"
   },
   {
-    "function": "Electronic Signing� - Batch signing� -",
+    "function": "Electronic Signing - Batch signing -",
     "team": "Typhoon"
   },
   {
-    "function": "Electronic Signing� - Create/update Signature requests� - CallbackApi�",
-    "team": "Vortex�"
+    "function": "Electronic Signing - Create/update Signature requests - CallbackApi",
+    "team": "Vortex"
   },
   {
-    "function": "Electronic Signing� - Notify (SR)� - SigningService�",
-    "team": "Vortex�"
+    "function": "Electronic Signing - Notify (SR) - SigningService",
+    "team": "Vortex"
   },
   {
-    "function": "Electronic Signing� - Quick sign page� -",
-    "team": "Vortex�"
+    "function": "Electronic Signing - Quick sign page -",
+    "team": "Vortex"
   },
   {
-    "function": "Electronic Signing� - Reminders (SR)� -",
-    "team": "Vortex�"
+    "function": "Electronic Signing - Reminders (SR) -",
+    "team": "Vortex"
   },
   {
-    "function": "Notifications - Sending and/or queuing notifications (email/SMS/push)� - Admincontrol.Notification (NuGet Package)�",
-    "team": "Vortex�"
+    "function": "Notifications - Sending and/or queuing notifications (email/SMS/push) - Admincontrol.Notification (NuGet Package)",
+    "team": "Vortex"
   },
   {
-    "function": "Electronic Signing� - Signature levels� -",
-    "team": "Vortex�"
+    "function": "Electronic Signing - Signature levels -",
+    "team": "Vortex"
   },
   {
-    "function": "Electronic Signing� - SR widget� -",
-    "team": "Vortex�"
+    "function": "Electronic Signing - SR widget -",
+    "team": "Vortex"
   },
   {
-    "function": "Board Evaluation� - Survey� -",
-    "team": "Vortex�"
+    "function": "Board Evaluation - Survey -",
+    "team": "Vortex"
   },
   {
     "function": "",
-    "team": "Vortex�"
+    "team": "Vortex"
   }
 ]
